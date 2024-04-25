@@ -745,3 +745,10 @@ class TestSmart_label_AnalyzerFunctions(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+import unittest
+class TestSmart_label_AnalyzerFunctions(unittest.TestCase):
+    def test_example_function(self):
+        self.assertEqual(example_function(), expected_result)
+
+if __name__ == '__main__':
+    unittest.main()
