@@ -1,3 +1,4 @@
+"""Code for repo: Smart_label_Analyzer. This code handles core operations."""
 import os
 import torch
 from PIL import Image
@@ -97,3 +98,7 @@ expired or not (considering current date {current_date}):
 folder_path = "folder path"
 
 process_images_from_folder(folder_path)
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
